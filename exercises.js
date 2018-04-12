@@ -61,7 +61,7 @@ console.log ('My dog '+ dog.name  + " is " + dog.age + ' year old and likes to '
 */
 var kicks = {}
 kicks.brand='vans';
-kicks.color= 'cornflower blue';
+kicks.color= 'cornflower blue'
 kicks.size= '9';
 kicks.price= 70;
 kicks.buy= 'Now I is a cool kid!'
@@ -78,8 +78,12 @@ console.log (kicks)
 
   console.log the object
 */
+var plainBox = {}
+plainBox.color= 'brown';
+plainBox.size= '15';
+plainBox.contents= []
 
-
+console.log (plainBox)
 /*
 5. Declare a variable named `stockCar` and create the following properties (key-value pairs) to the object:
             - add a key named `model` and set its value to the name of an American car manufacturer.
