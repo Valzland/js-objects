@@ -94,8 +94,14 @@ console.log (plainBox)
 
     console.log the object
 */
-
-
+var stockCar = {
+model: 'Ford',
+year: '2006',
+AutomaticTransmission: true,
+driver: 'null',
+passenger: []
+}
+console.log (stockCar)
 /*
 
 6. Add new property inside a function
